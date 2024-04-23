@@ -13,10 +13,10 @@ func main() {
 
 		//return response JSON
 		c.JSON(200, gin.H{
-			"message": "Hello World!",
+			"message":"Hello Go Programming Language!",
 		})
 	})
 
 	//start server with port 3000
-	router.Run(":3099")
+	router.Run(":4040")
 }
